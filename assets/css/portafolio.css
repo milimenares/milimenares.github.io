@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-weight: 300;
+}
+
+/* Navbar */
+
+.fondo_nav {
+  background-color: #13093c;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.btn-hero1 {
+  background-color: #301e79;
+  border-color: #301e79;
+}
+
+.btn-hero1:hover {
+  background-color: #13093c;
+  border-color: #13093c;
+}
+
+.btn-hero2 {
+  background-color: #301e793f;
+  border: 2px solid #301e79;
+}
+
+.btn-hero2:hover {
+  background-color: #301e7971;
+  border: 2px solid #13093c;
+}
+
+/* Acerca de mi */
+
+.img_acerca {
+  width: 160px;
+}
+
+h2 {
+  color: #13093c;
+}
+
+h3 {
+  color: #13093c;
+}
+
+/* Servicios */
+
+#Servicios {
+  background-color: #f4dfd2;
+}
+
+#Servicios .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-servicios {
+  border: 2px solid #301e79;
+  color: #13093c;
+}
+
+.btn-servicios:hover {
+  background-color: #301e79;
+  border: 2px solid #13093c;
+  color: white;
+}
+
+.card-title {
+  color: #281577;
+}
+
+.card-text {
+  color: #3e3e3e;
+  font-weight: 300;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 600;
+  color: #13093c;
+}
+
+.btn-contacto {
+  background-color: #301e79;
+  border-color: #301e79;
+}
+
+.btn-contacto:hover {
+  background-color: #13093c;
+  border-color: #13093c;
+}
+
+/* Footer */
+footer {
+  background-color: #13093c;
+}
+
+
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .navbar-brand{
+    width: 220px;
+  }
+
+}
+
+
+.volver {
+  background-color: #ff4f5a;
+  padding: 7px 11px;
+  border-radius: 8px 0px 0 8px;
+  color: white;
+  bottom: 50%;
+  font-size: 14px;
+}
+
+.volver a {
+  color: white;
+  text-decoration: none;
+}
+
+

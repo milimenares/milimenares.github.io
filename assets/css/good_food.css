@@ -1,0 +1,133 @@
+
+.hero {
+	background-image: url("../img/top_good_food.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 44px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.texto_top {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(42, 42, 42);
+    font-family: 'Lora', serif;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.nav {
+    background-color: #ff9d5c;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.botones {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 70px;
+  }
+
+.par1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgb(76, 76, 76);
+    padding-left: 30px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+p.capital::first-letter {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 26, 26);
+    font-family: 'Lora', serif;
+    font-size: 61px;
+    line-height: 61px;
+    margin-right: 8px;
+}
+
+.imagen1 {
+    float: left;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.borde_separacion {
+    border-top-style: dotted;
+    border-top-color: #ddd;
+    border-top-width: 3px;
+}
+
+.imagen_food {
+    width: 334px;
+    border-radius: 8px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.m_derecha {
+    margin-right: 30px;
+}
+
+.pie {
+    background-color: #ff9d5c;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.link_pie {
+    color: white !important;
+    text-decoration: none;
+}
+
+.limpiar {
+    clear: both;
+}
+
+.contenedor_volver {
+    position: relative;
+}
+
+.volver {
+    background-color: #ff4f5a;
+    padding: 7px 11px;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+    bottom: 50%;
+    font-size: 14px;
+    position: fixed;
+}
+
+.volver a {
+    color: white;
+    text-decoration: none;
+}
+

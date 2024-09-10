@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #28a745;
+}
+
+.logo_navbar {
+    height: 36px;
+}
+
+.imagen_cupon {
+    border-radius: .25rem .25rem 0 0;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 300;
+}
+
+.texto1 {
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+
+.texto2 {
+    font-weight: 300;
+    font-size: 13px;
+    color: #707070;
+}
+
+.texto3 {
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+
+.texto4 {
+    font-size: 20px;
+    color: #28a745;
+    font-weight: 400;
+}
+
+.espacio_precio {
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.formulario {
+    background-color: #28a745;
+}
+
+.texto_form {
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.colores {
+    color: white;
+}
+
+.imagen_footer {
+    width: 100px;
+}
+
+.texto_footer {
+    color: #707070;
+    font-weight: 300;
+}
+
+.volver {
+    background-color: #ff4f5a;
+    padding: 7px 11px;
+    border-radius: 8px 0px 0 8px;
+    color: white;
+    bottom: 50%;
+    font-size: 14px;
+}
+
+.volver a {
+    color: white;
+    text-decoration: none;
+}
