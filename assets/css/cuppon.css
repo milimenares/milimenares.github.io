@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
-    background-color: #28a745;
+.bg-green {
+    background-color: #28A745;
 }
 
-.logo_navbar {
+.logo {
     height: 36px;
 }
 
-.imagen_cupon {
+.imagen-cupon {
     border-radius: .25rem .25rem 0 0;
 }
 
 .card-title {
     font-size: 20px;
+    line-height: 24px;
     color: #212529;
     font-weight: 300;
 }
@@ -44,7 +47,7 @@ body {
     font-weight: 400;
 }
 
-.espacio_precio {
+.espacio-precio {
     border-top: 1px solid rgba(0,0,0,.125);
 }
 
@@ -52,35 +55,17 @@ body {
     background-color: #28a745;
 }
 
-.texto_form {
+.texto-form {
     font-size: 16px;
     font-weight: 300;
     color: #707070;
 }
 
-.colores {
-    color: white;
-}
-
-.imagen_footer {
+.imagen-footer {
     width: 100px;
 }
 
-.texto_footer {
+.texto-footer {
     color: #707070;
     font-weight: 300;
-}
-
-.volver {
-    background-color: #ff4f5a;
-    padding: 7px 11px;
-    border-radius: 8px 0px 0 8px;
-    color: white;
-    bottom: 50%;
-    font-size: 14px;
-}
-
-.volver a {
-    color: white;
-    text-decoration: none;
 }

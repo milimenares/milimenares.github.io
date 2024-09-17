@@ -1,14 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .hero {
 	background-image: url("../img/top_good_food.jpg");
     background-size: cover;
     background-position: center;
-    padding: 25px;
+    padding: 50px 25px;
     margin: 0%;
 }
 
 h1 {
-    font-size: 44px !important;
+    font-size: 56px;
+    line-height: 105px;
     font-weight: 600;
     text-transform: uppercase;
     font-family: 'Lora', serif;
@@ -17,26 +23,28 @@ h1 {
 
 .texto_top {
     text-align: center;
-    font-size: 22px;
+    font-size: 33px;
     font-weight: 300;
-    color: rgb(42, 42, 42);
+    color: #373737;
     font-family: 'Lora', serif;
     font-style: italic;
-    margin-top: -20px;
+    margin-top: -17px;
+    line-height: 44px;
+    letter-spacing: 1px;
 }
 
 .nav {
     background-color: #ff9d5c;
     font-family: 'Roboto', sans-serif;
-    padding: 20px;
+    padding: 17px;
     text-align: center;
-    color: white;
+    color: #ffffff;
 }
 
 .botones {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     margin: 0 6px;
 }
 
@@ -50,20 +58,20 @@ h1 {
 .par1 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    color: rgb(76, 76, 76);
+    color: #4c4c4c;
     padding-left: 30px;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 28px;
 }
 
 p.capital::first-letter {
     float: left;
-    background-color: rgb(255, 255, 255);
-    color: rgb(26, 26, 26);
+    background-color: #ffffff;
+    color: #1a1a1a;
     font-family: 'Lora', serif;
-    font-size: 61px;
-    line-height: 61px;
-    margin-right: 8px;
+    font-size: 70px;
+    line-height: 70px;
+    margin-right: 6px;
 }
 
 .imagen1 {
@@ -79,55 +87,39 @@ p.capital::first-letter {
 }
 
 .imagen_food {
-    width: 334px;
+    width: 406px;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 h4 {
     text-align: center;
     font-family: 'Lora', serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
+    border-bottom: dotted #ff9d5c;
+    padding-bottom: 20px;
 }
 
 .m_derecha {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .pie {
     background-color: #ff9d5c;
     padding: 20px;
-    color: white;
+    color: #ffffff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 .link_pie {
-    color: white !important;
+    color: #ffffff !important;
     text-decoration: none;
 }
 
 .limpiar {
     clear: both;
-}
-
-.contenedor_volver {
-    position: relative;
-}
-
-.volver {
-    background-color: #ff4f5a;
-    padding: 7px 11px;
-    border-radius: 0px 8px 8px 0px;
-    color: white;
-    bottom: 50%;
-    font-size: 14px;
-    position: fixed;
-}
-
-.volver a {
-    color: white;
-    text-decoration: none;
 }
 

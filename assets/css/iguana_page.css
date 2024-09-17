@@ -21,23 +21,21 @@ header h1 {
 }
 
 .desc-section {
-    height: 348px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 0;
 }
 
 .texto-iguana {
-    display: inline-block;
-    padding-left: 150px;
-    padding-top: 72px;
     width: 38%;
     margin-right: 45px;
     font-weight: 300;
 }
 
 .iguana-1 {
-    float: right;
     width: 399px;
-    padding-right: 150px;
-    padding-top: 45px;
 }
 
 .texto-1 {
@@ -46,23 +44,16 @@ header h1 {
     line-height: 19px;
 }
 
-.texto-2 {
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 19px;
-}
-
 .icons-section {
     background-color: #1E1A13;
     text-align: center;
-    height: 348px;
+    padding: 35px 0 45px 0;
 }
 
 .icons-section h2 {
-    padding-bottom: 20px;
-    padding-top: 75px;
     font-size: 40px;
     font-weight: 500;
+    margin-bottom: 40px;
 }
 
 .icons-section .icons {
@@ -77,15 +68,16 @@ header h1 {
 }
 
 .photos-section {
-    height: 348px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 75px 0 75px 0;
 }
 
 .iguanas {
     height: 202px;
     width: 316px;
-    display: inline-block;
-    padding: 72px 5px 0px 5px;
+    padding: 0 8px;
 }
 
 footer {
