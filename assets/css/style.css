@@ -161,7 +161,6 @@ h3 {
 .slick-list.dragging
 {
   cursor: pointer;
-  cursor: hand;
 }
 
 .slick-slider .slick-track,
@@ -253,7 +252,7 @@ footer {
 
   #Hero-Section {
     background-image: url("../img/slide2.jpg");
-  } 
+  }
 
   .slick-slide img {
     width: 50px;
