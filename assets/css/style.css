@@ -6,6 +6,10 @@ p {
   font-size: 18px;
 }
 
+section[id] {
+  padding: 100px;
+}
+
 /* Navbar */
 
 .fondo_nav {
